@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunnydale School</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+      background-color: #f0f4f8;
+      color: #2F4F4F;
+      line-height: 1.6;
+    }
+    .h1-box {
+      background-color: #8dc0d8;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 24px 0;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #003366;
+      text-align: center;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    h2 {
+      color: #004C70;
+      font-weight: bold;
+      margin-top: 25px;
+      border-bottom: 2px solid #4682B4;
+
+      padding-bottom: 5px;
+    }
+    li span {
+      font-weight: bold;
+      color: #1E90FF;
+    }
+    #upcoming-events-section {
+      background-color: #e6f2ff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .outdoor {
+      background-color: #d9f2f0;
+      padding: 8px;
+      border: 1px solid #b3e0dc;
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+    .contact-box {
+      background-color: #edf6fa;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    a {
+      color: #1E90FF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="h1-box">
+    <h1>Welcome to Sunnydale School</h1>
+  </div>
+
+  <h2 class="mission">Mission Statement</h2>
+  <p>Our mission is to provide quality education that nurtures creativity, discipline, and growth for every student.</p>
+
+  <h2 id="upcoming-events" class="events-title">Upcoming Events</h2>
+  <ul id="upcoming-events-section">
+    <li data-event-type="indoor" title="Event Type: Indoor">Science Fair - <span>June 10</span></li>
+    <li data-event-type="outdoor" title="Event Type: Outdoor" class="outdoor">Sports Day - <span>June 20</span></li>
+    <li data-event-type="outdoor" title="Event Type: Outdoor" class="outdoor">Art Exhibition - <span>July 25</span></li>
+  </ul>
+
+  <h2 class="contact">Contact Us</h2>
+  <div class="contact-box section">
+    <p>Email: <a href="mailto:info@sunnydaleschool.com" title="Click to copy email">info@sunnydaleschool.com</a></p>
+    <p>Phone: <a href="tel:+1234567890" title="Click to copy phone">+1 (234) 567 890</a></p>
+  </div>
+
+  <!-- Imagine clicking here shows a message: 'Thanks for reaching out!' -->
+
+</body>
+</html>
